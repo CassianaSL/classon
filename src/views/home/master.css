@@ -6,6 +6,12 @@
  * Made By MaterializeCSS.com
  */
 
+ #fullpage { z-index: -2; }
+ #sidenav-overlay { z-index: -1; }
+ #nav { position: fixed; }
+ #sa, #sc, #se { background: #ffebee; }
+ #sb, #sd { background: #ffcdd2; }
+
  nav ul a,
  nav .brand-logo {
    color: #444;
