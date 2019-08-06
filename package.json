@@ -20,9 +20,11 @@
   },
   "homepage": "https://github.com/costafsk/environment#readme",
   "dependencies": {
+    "jquery": "^3.4.1",
     "materialize-css": "^1.0.0"
   },
   "devDependencies": {
+    "ember-cli-materialize": "^0.22.0",
     "gulp": "^4.0.2",
     "parcel-bundler": "^1.12.3"
   }
