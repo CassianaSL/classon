@@ -1,15 +1,24 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const elems = document.querySelectorAll('.sidenav');
-    const instances = M.Sidenav.init(elems);
-});
+document.addEventListener('DOMContentLoaded', () => init());
 
-document.addEventListener('DOMContentLoaded', function() {
-    const elems = document.querySelectorAll('.carousel');
-    const instances = M.Carousel.init(elems);
-});
+const init = () => {
+    const nav = document.querySelectorAll('.sidenav');
+    const instances = M.Sidenav.init(nav);
 
-var instance = M.Carousel.init({
-    fullWidth: true,
-    indicators: true
-});
+    const carousel = document.querySelector('.carousel');
+    
+    const instance = M.Carousel.init(carousel, {
+        fullWidth: true,
+        indicators: true
+    });
+
+    const setHeight = (isBody) => {
+        const height = window.innerHeight;
+
+        return isBody ? `${height}px` : `${height - (height * 8.5) / 100}px`;
+    }
+
+    carousel.style.height = setHeight(false);
+
+    document.body.onresize = () => carousel.style.height = setHeight(false);
+};
 
