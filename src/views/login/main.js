@@ -20,8 +20,5 @@ const init = () => {
     carousel.style.height = setHeight(false);
 
     document.body.onresize = () => carousel.style.height = setHeight(false);
-
-    const materialBoxed = document.querySelectorAll('.materialboxed');
-    const mbInstances = M.Materialbox.init(materialBoxed);
 };
 

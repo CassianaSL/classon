@@ -70,10 +70,12 @@ nav {
 .why-use {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .why-use > .number {
   background-color: rgb(216, 148, 0);
-  border: rgb(216, 148, 0) solid 15px;
-  margin: 5px;
+  /* padding: 7px; */
+  /* margin-right: 7px; */
+  border: rgb(216, 148, 0) solid 10px;
 }
