@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../../../node_modules/materialize-css/dist/css/materialize.min.css">
     <script src="./../../../node_modules/jquery/dist/jquery.min.js"></script>
     <link rel="stylesheet" href="./master.css">
@@ -14,7 +15,7 @@
 </head>
 <body>
   <header>
-    <nav class="nav-extended">
+    <nav class="nav-extended amber darken-1">
         <div class="nav-wrapper">
           <a href="./home.html" class="brand-logo">ClassOn</a>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
@@ -29,13 +30,21 @@
         </div>
         <!-- <div class="nav-content center"></div> -->
       </nav>
-      <ul class="sidenav" id="mobile-demo">
-        <li><a href="#!">Página Inicial</a></li>
+      <ul class="sidenav amber darken-1" id="mobile-demo">
+        <li>
+          <a href="#!">Página Inicial</a>
+        </li>
+        <div class="divider"></div>
         <li><a href="#!">Porque utilizar o ClassOn?</a></li>
+        <div class="divider"></div>
         <li><a href="#!">Como utilizar o ClassOn</a></li>
+        <div class="divider"></div>
         <li><a href="#!">Sobre nós</a></li>
+        <div class="divider"></div>
         <li><a href="#!">Criar Conta</a></li>
+        <div class="divider"></div>
         <li><a class="waves-effect waves-light btn-small">Acessar Conta</a></li>
+        <div class="divider"></div>
         <li><a class="waves-effect waves-light btn-small">Criar conta</a></li>
       </ul>
   </header>
@@ -43,7 +52,8 @@
     <!-- <section class="carousel-fixed-item p-carousel-fixed-item-register">
       <a href="../login/home.html" class="p-button p-button-register grey lighten-2">Não é usuário? Crie já sua conta</a>  
     </section> -->
-    <section class="carousel-item white-text c-carousel-one" href="#one!">
+    <section class="carousel-item c-carousel-one indigo lighten-1
+    " href="#one!">
       <article class="page-one">
           <ul class="collection with-header">
               <li class="collection-header">
@@ -92,30 +102,43 @@
           </ul>
         </article>
     </section>
-    <section class="carousel-item c-carousel-two accent-1 white-text p-carousel-page" href="../how-use/home.html">
+    <section class="carousel-item c-carousel-two p-carousel-page cyan darken-2" href="../how-use/home.html">
       <a href="../how-use/home.html" class="white-text">
         <h4>Como utilizar o ClassOn</h4>
       </a>
-      <img src="http://via.placeholder.com/500x400" alt="how to use" class="materialboxed responsive-img">
+      <div class="center">
+        <img src="http://via.placeholder.com/300x400" alt="how to use" class="materialboxed responsive-img">
+      </div>
     </section>
-    <section class="carousel-item white-text c-carousel-thre" href="../how-use/home.html">
+    <section class="carousel-item c-carousel-thre indigo darken-1" href="../how-use/home.html">
         <a href="../how-use/home.html" class="white-text">
           <h4>Como utilizar o ClassOn</h4>
         </a>
-        <img src="http://via.placeholder.com/500x400" alt="how to use" class="materialboxed responsive-img">
-    </section>
-    <section class="carousel-item accent-1 white-text c-carousel-four" href="#four!">
+        <div class="center">
+          <img src="http://via.placeholder.com/300x400" alt="how to use" class="materialboxed responsive-img">
+        </div>
+      </section>
+    <section class="carousel-item c-carousel-four blue-grey" href="#four!">
         <a href="../about/home.html" class="white-text">
           <h4>Sobre nós</h4>
         </a>
-        <p class="white-text center col s12 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut qui placeat, voluptatem quam aut aliquam ea quos dolorem voluptate blanditiis, excepturi porro et tempore totam aliquid nostrum perferendis, nisi fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut qui placeat, voluptatem quam aut aliquam ea quos dolorem voluptate blanditiis, excepturi porro et tempore totam aliquid nostrum perferendis, nisi fuga.</p>
+        <p class="white-text center col s12 ">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut qui placeat, voluptatem quam aut aliquam ea quos dolorem voluptate blanditiis, excepturi porro et tempore totam aliquid nostrum perferendis, nisi fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut qui placeat, voluptatem quam aut aliquam ea quos dolorem voluptate blanditiis, excepturi porro et tempore totam aliquid nostrum perferendis, nisi fuga.
+        </p>
     </section>
-    <section class="carousel-item accent-1 white-text c-carousel-four" href="#four!">
+    <section class="carousel-item c-carousel-four deep-purple lighten-1" href="#four!">
       <a href="../about/home.html" class="white-text">
         <h4>Crie já sua conta!</h4>
       </a>
-      <img src="http://via.placeholder.com/100x100" alt="create account" class="responsive-img">
+      <div class="center">
+        <img src="http://via.placeholder.com/300x300" alt="create account" class="responsive-img">
+      </div>
+      <br>
       <a class="waves-effect waves-light btn">Acessar Conta</a>
+      <div class="hide-on-med-and-down">
+        <br>
+        <br>
+      </div>
       <a class="waves-effect waves-light btn">Criar conta</a>
     </section>
   </main>
