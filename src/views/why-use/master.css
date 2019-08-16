@@ -17,7 +17,11 @@ nav {
   justify-content: space-evenly
 }
 
+<<<<<<< HEAD
 #mobile-demo>li>a {
+=======
+#mobile-demo > li > a{
+>>>>>>> c3c20b2b23f4f5971af47289023fc66c8d6f2d24
   color: white;
   font: bolder;
 }
@@ -83,10 +87,16 @@ nav {
   margin: 5px;
 }
 
+<<<<<<< HEAD
 section.carousel-item > div.center {
   /* display: flex; */
   /* justify-content: center; */
   /* justify-content: center */
+=======
+section.carousel-item > div.center{
+  display: flex;
+  justify-content: center;
+>>>>>>> c3c20b2b23f4f5971af47289023fc66c8d6f2d24
 }
 
 iframe {
