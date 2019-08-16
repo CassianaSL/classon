@@ -3,8 +3,23 @@ body {
 }
 
 nav {
-  background-color: #89A9B5;
+  /* background-color: #838CC3; */
   height: 12%;
+}
+
+.brand-logo {
+  font-family: 'Pacifico', cursive;
+}
+
+#mobile-demo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly
+}
+
+#mobile-demo > li > a{
+  color: white;
+  font: bolder;
 }
 
 .nav-wrapper {
@@ -32,20 +47,8 @@ nav {
 
 /* Set Color */
 
-.c-carousel-one {
-  background-color: #838CC3;
-}
-
-.c-carousel-two {
-  background-color: #D5D7DA;
-}
-
-.c-carousel-thre {
-  background-color: #00BA93;
-}
-
-.c-carousel-four {
-  background-color: #062736;
+.carousel-item {
+  color: white;
 }
 
 .number-one {
@@ -70,12 +73,15 @@ nav {
 .why-use {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .why-use > .number {
   background-color: rgb(216, 148, 0);
-  padding: 7px;
-  margin-right: 7px;
-  border: white solid 5px;
+  border: rgb(216, 148, 0) solid 15px;
+  margin: 5px;
+}
+
+section.carousel-item > div.center{
+  display: flex;
+  justify-content: center;
 }
