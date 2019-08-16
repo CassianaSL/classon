@@ -14,7 +14,7 @@ nav {
 #mobile-demo {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly
+  justify-content: space-evenly;
 }
 
 #mobile-demo > li > a{
