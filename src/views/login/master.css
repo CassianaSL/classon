@@ -14,14 +14,10 @@ nav {
 #mobile-demo {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly
+  justify-content: space-evenly;
 }
 
-<<<<<<< HEAD
 #mobile-demo>li>a {
-=======
-#mobile-demo > li > a{
->>>>>>> c3c20b2b23f4f5971af47289023fc66c8d6f2d24
   color: white;
   font: bolder;
 }
@@ -87,11 +83,21 @@ nav {
   margin: 5px;
 }
 
-<<<<<<< HEAD
-section.carousel-item>div.center {
-=======
-section.carousel-item > div.center{
->>>>>>> c3c20b2b23f4f5971af47289023fc66c8d6f2d24
+div.center {
+  border: red solid 1px;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
+}
+
+.carousel-item > .links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  font-size: 1.01em;
+}
+
+.carousel-item > .links > a {
+  color: white;
 }
