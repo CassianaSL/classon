@@ -1,12 +1,12 @@
 # ClassOn
 
-###### Para download
+## Para download
 
 ```
 git clone https://github.com/CassianaSL/classon
 ```
 
-###### Para iniciar a aplicação
+## Para iniciar a aplicação
 
 ```
 cd classon
