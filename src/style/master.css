@@ -85,3 +85,20 @@ section.carousel-item > div.center{
   display: flex;
   justify-content: center;
 }
+
+iframe {
+  max-width: 853px;
+  max-height: 450px;
+}
+
+section.c-carousel-four.card-classon{
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.carousel-item>div.center#developer {
+  flex-direction: column;
+  align-items: center;
+}
