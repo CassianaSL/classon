@@ -9,7 +9,6 @@
   <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../../../node_modules/materialize-css/dist/css/materialize.min.css">
   <script src="./../../../node_modules/jquery/dist/jquery.min.js"></script>
-  <!-- <link rel="stylesheet" href="./master.css"> -->
   <link rel="stylesheet" href="../../style/master.css">
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -50,14 +49,15 @@
   <main class="carousel carousel-slider center">
     <section class="carousel-item indigo lighten-1 white-text">
       <h4>Acessar Conta</h4>
+      <form action="#" id="form-login">
         <div class="row">
-          <div class="input-field col s12 t6 m6">
+          <div class="input-field col s12 l12">
             <label for="email">Email</label>
             <input id="email" type="email" class="validate">
           </div>
         </div>
         <div class="row">
-          <div class="input-field col s12 t6 m6">
+          <div class="input-field col s12">
             <label for="password">Password</label>
             <input id="password" type="password" class="validate">
           </div>
@@ -67,6 +67,7 @@
           <a href="#">Esqueci a senha</a>
           <a href="#">Não sou cadastrado</a>
         </div>
+      </form>
     </section>
   </main>
   <script src="../../../node_modules/materialize-css/dist/js/materialize.min.js"></script>
